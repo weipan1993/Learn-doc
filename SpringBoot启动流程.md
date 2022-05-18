@@ -6,3 +6,5 @@ SpringBoot启动流程分为两个阶段，SpringApplication构建和运行。
 2. 通过Spring Spi机制文件配置加载相关属性设置。
 
 ### SpringApplication运行
+1. 加载应用监听器
+2. 准备环境相关信息
